@@ -1,0 +1,18 @@
+object Form37: TForm37
+  Left = 0
+  Top = 0
+  Caption = 'Form37'
+  ClientHeight = 480
+  ClientWidth = 640
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 104
+    Top = 128
+  end
+end
